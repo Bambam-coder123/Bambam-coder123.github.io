@@ -13,10 +13,10 @@ body {
 header {
   width: 100%;
   height: 600px;
-  background: url('../assets/images/headerBkg.jpg');
-  font-size: 2em;
+  background: url('../assets/images/header1_ass4.png');
+  font-size: 1.6em;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 100px;
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -36,11 +36,11 @@ header {
   border-radius: 8px;
 }
 .bioPic {
-  width: 350px;
+  width: 220px;
   border-radius: 50%;
   float: left;
   margin-right: 50px;
-  border: 3px solid #000;
+  border: 1px solid #000;
   box-shadow: 3px 3px 7px #333;
 }
 #about {
@@ -54,11 +54,11 @@ header {
     background: #aaa;
     float: left;
     padding: 25px 50px;
-    font-size: 1.2em;
+    font-size: 0.9em;
     border-right: 1px solid #fff;
   }
     #aboutLeft > p {
-      margin-bottom: 25px;
+      margin-bottom: 35px;
     }
   #aboutRight {
     width: 50%;
@@ -67,6 +67,11 @@ header {
     float: left;
     padding: 25px 50px;
     font-size: 1.2em;
+  }
+  .icon {
+    width: 64px;
+    margin: 25px;
+    
   }
     ul {
       margin-left: 100px;
@@ -77,6 +82,6 @@ footer {
   min-height: 100px;
   background: #222;
   text-align: center;
-  padding-top: 18px;
+  padding-top: 30px;
   border-top: 1px solid #fff;
 }
