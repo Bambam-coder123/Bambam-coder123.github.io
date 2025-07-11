@@ -29,7 +29,7 @@ header {
 .heading {
   color: #07b123;
   text-shadow: 3px 3px 7px #000;
-  margin: 25px 0;
+  margin: 35px 0;
   background: linear-gradient(to right, rgba(255, 255, 255, .67), rgba(255, 255, 255, 0));
   padding: 7px 0;
   padding-left: 7px;
@@ -48,10 +48,13 @@ header {
   min-height: 700px;
   background: #999;
 }
+.skill {
+ cursor: pointer;
+}
   #aboutLeft {
     width: 50%;
     min-height: 700px;
-    background: #aaa;
+    background: #76d9e0;
     float: left;
     padding: 25px 50px;
     font-size: 0.9em;
@@ -63,15 +66,14 @@ header {
   #aboutRight {
     width: 50%;
     min-height: 700px;
-    background: linear-gradient(#555, #444);
+    background: #0505ce;
     float: left;
     padding: 25px 50px;
     font-size: 1.2em;
   }
   .icon {
     width: 64px;
-    margin: 25px;
-    
+    margin: 25px;    
   }
     ul {
       margin-left: 100px;
